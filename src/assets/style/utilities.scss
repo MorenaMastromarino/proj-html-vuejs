@@ -1,3 +1,8 @@
+
+.mm-py {
+  padding: 130px 0;
+}
+
 /* buttons */
 .mm-btn-green, .mm-btn-white {
   padding: 13px 25px;
@@ -24,8 +29,16 @@
 }
 
 /* titles */
-.subtitle {
-  color: #69767D;
+.top-title {
+  font-size: 14px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  color: $primary-color;
+}
+
+h2 {
+  margin-bottom: 25px;
+  font-size: 50px;
 }
 
 .highlighted {
@@ -33,4 +46,9 @@
   border-radius: 5px;
   color: $primary-color;
   background-color: rgba($primary-color, .2);
+}
+
+.subtitle {
+  margin-bottom: 0;
+  color: #69767D;
 }

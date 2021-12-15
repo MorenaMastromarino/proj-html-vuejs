@@ -30,10 +30,16 @@
         Ready 
         <span class="highlighted">Team</span>
       </h1>
-      <p class="subtitle">No matter what your company needs, we will be ready to assist you in the best possible way.</p>
+      <p class="subtitle">
+        No matter what your company needs, we will be ready to assist you in the best possible way.
+      </p>
 
-      <button type="button" class="btn mm-btn-green">Get in touch</button>
-      <button type="button" class="btn mm-btn-white">Read more</button>
+      <button type="button" class="btn mm-btn-green">
+        Get in touch        
+      </button>
+      <button type="button" class="btn mm-btn-white">
+        Read more        
+      </button>
     </div>
 
   </div>
