@@ -1,7 +1,7 @@
 <template>
   <div>
     <Header />
-    <Jumbotron />
+    <Jumbotron :menuData=jumboMenuData />
     <Main />
     <Footer />
   </div>
@@ -20,6 +20,17 @@ export default {
     Jumbotron,
     Main,
     Footer
+  },
+  data(){
+    return{
+      jumboMenuData: [
+        'home',
+        'services',
+        'about',
+        'projects',
+        'results'
+      ]
+    }
   }
 }
 </script>
@@ -27,5 +38,6 @@ export default {
 <style lang="scss">
 @import './assets/style/vars.scss';
 @import './assets/style/general.scss';
+@import './assets/style/utilities.scss';
 
 </style>

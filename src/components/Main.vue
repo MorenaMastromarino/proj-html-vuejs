@@ -2,7 +2,7 @@
   <main>
       MAIN
       <!-- services -->
-      <!-- company -->
+      <!-- about -->
       <!-- projects -->
       <!-- results -->
       <!-- get in touch -->

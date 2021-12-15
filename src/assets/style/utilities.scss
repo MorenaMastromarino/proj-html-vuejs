@@ -1,0 +1,36 @@
+/* buttons */
+.mm-btn-green, .mm-btn-white {
+  padding: 13px 25px;
+  text-transform: uppercase;
+  font-weight: bold;  
+  transition: all 0.5s;
+  &:hover {
+    background-color: lighten($primary-color, 7%);
+    color: #fff;
+  }
+}
+
+.mm-btn-green {
+  background-color: $primary-color;
+  color: #fff;  
+}
+
+.mm-btn-white {
+  color: $primary-color;
+  border-color: $primary-color;
+  &:hover {
+    border-color: lighten($primary-color, 7%);
+  }
+}
+
+/* titles */
+.subtitle {
+  color: #69767D;
+}
+
+.highlighted {
+  padding: 0 15px;
+  border-radius: 5px;
+  color: $primary-color;
+  background-color: rgba($primary-color, .2);
+}
